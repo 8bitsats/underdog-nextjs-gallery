@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "setup": "ts-node --compiler-options \"{\\\"module\\\":\\\"commonjs\\\"}\" scripts/setup.ts"
-
   },
   "dependencies": {
     "@solana/wallet-adapter-base": "^0.9.22",
@@ -36,5 +35,6 @@
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
     "ts-node": "^10.9.1"
-  }
+  },
+  "packageManager": "yarn@4.4.0+sha512.91d93b445d9284e7ed52931369bc89a663414e5582d00eea45c67ddc459a2582919eece27c412d6ffd1bd0793ff35399381cb229326b961798ce4f4cc60ddfdb"
 }
